@@ -1,0 +1,15 @@
+{
+  "name": "selfbase-mcp-monorepo",
+  "private": true,
+  "scripts": {
+    "build": "pnpm --filter @jun-b/selfbase-mcp build",
+    "test": "pnpm --filter @jun-b/selfbase-mcp test",
+    "test:coverage": "pnpm --filter @jun-b/selfbase-mcp test:coverage",
+    "format": "biome check --write .",
+    "format:check": "biome check ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
+  },
+  "packageManager": "pnpm@10.15.0"
+}
